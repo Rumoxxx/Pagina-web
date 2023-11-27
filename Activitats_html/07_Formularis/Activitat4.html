@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Cámaras de Fotos</title>
+    <style>
+
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="/buscar" method="get">
+        
+        <h2>Buscar Cámaras de Fotos</h2>
+        <br>
+        <label for="marca">Marca:</label>
+        <br>
+        <input type="text">
+        <br>
+<br>
+        <label for="modelo">Modelo:</label>
+        <br>
+        <input type="text">
+        <br>
+<br>
+        <label for="megapixeles">Megapíxeles:</label>
+        <select id="megapixeles" name="megapixeles">
+            <option value="8">8 MP</option>
+            <option value="12">12 MP</option>
+            <option value="16">16 MP</option>
+            <option value="20">20 MP</option>
+        </select>
+        <br>
+<br>
+        <input type="submit" value="Buscar">
+    </form>
+
+</body>
+</html>
