@@ -1,12 +1,12 @@
-.titulo_1 {
+h1 {
     color: blueviolet; 
 }
-.titulo_2 {
+h2 {
     color: cadetblue;
 }
-.paragrafo {
+p {
     color: darkblue;
 }
 body {
-    background-color: coral;
+    background-color: rgb(255, 155, 119);
 }
