@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="../css/activitat2.css">
+</head>
+<body>
+    <div id="comment-form">
+        <h2>Deja tu comentario</h2>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" required>
+
+            <label for="comment">Comentario:</label>
+            <textarea id="comment" required></textarea>
+            <div id="comments-container">
+                <div class="comment">
+                    <strong>Usuario1:</strong> Hola
+                </div>
+                
+                <div class="comment">
+                    <strong>Usuario2:</strong> Hola loco
+                </div>
+            </div>
+
+            <button type="submit">Publicar Comentario</button>
+        </form>
+    </div>
+
+    <div id="comments-container">
+        <div class="comment">
+            <strong>Usuario1:</strong> Hola
+        </div>
+        
+        <div class="comment">
+            <strong>Usuario2:</strong> Hola loco
+        </div>
+    </div>
+</body>
+</html>
