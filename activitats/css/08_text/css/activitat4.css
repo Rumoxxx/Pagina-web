@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato/Lato-Bold.ttf") format("ttf");
+    font-weight: bold;
+    font-style: bold;
+    font-display: swap;
+}
+.texto {
+    font-family: "Lato";
+    font-weight: bold;
+    font-style: bold;
+}
+
+.texto2 {
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.texto3 {
+    text-align: justify;
+}
