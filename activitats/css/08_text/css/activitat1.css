@@ -1,0 +1,15 @@
+.texto {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-style: italic;
+    font-style: oblique;
+    font-style: oblique 5deg;
+    font-weight: bolder;
+    
+}
+
+.texto2 {
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: bold;
+}

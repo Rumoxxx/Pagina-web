@@ -1,0 +1,19 @@
+.texto {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-style: italic;
+    font-weight: bolder;
+    word-spacing: 0.5rem;
+    letter-spacing: 1rem;
+}
+
+.texto2 {
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.texto3 {
+    text-align: justify;
+}
