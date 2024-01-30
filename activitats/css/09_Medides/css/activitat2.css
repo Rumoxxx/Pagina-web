@@ -1,0 +1,19 @@
+.parte1 {
+    background-color: aqua;
+    max-width: 18rem;
+}
+
+.parte2 {
+    background-color: aquamarine;
+    max-width: 17.5rem;
+}
+
+.parte4 {
+    background-color: rgb(141, 141, 248);
+    max-width: 16.5rem;
+}
+
+.parte3 {
+    background-color: cadetblue;
+    max-width: 17rem;
+}
