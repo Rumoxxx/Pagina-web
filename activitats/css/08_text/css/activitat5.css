@@ -1,0 +1,15 @@
+.mayus {
+text-transform: uppercase;
+}
+
+.negrita {
+font-weight: bold;
+}
+
+.subrayado {
+background-color: yellow;
+}
+
+.italica {
+    font-style: italic;
+}
