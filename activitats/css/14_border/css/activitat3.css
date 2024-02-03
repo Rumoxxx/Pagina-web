@@ -1,0 +1,6 @@
+img{
+    border: 0.5rem solid;
+    border-color: red;  
+    padding: 1rem;
+    border-radius: 25%;
+}

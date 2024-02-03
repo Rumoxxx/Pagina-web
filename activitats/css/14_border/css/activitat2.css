@@ -1,0 +1,6 @@
+img{
+    border: 0.5rem solid;
+    border-color: chocolate;  
+    border-right-style: dashed;
+    border-left-style: dashed;
+}
