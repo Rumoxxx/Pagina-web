@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.plan {
+    background-color: #f8f9fa;
+    border: 1px solid #0884ff;
+    border-radius: 5px;
+    padding: 20px;
+    width: 45%;
+}
+.plan h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.plan ul {
+    list-style-type: none;
+    padding: 0;
+}
+.plan li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.plan .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.plan .cta {
+    background-color: #007bff;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+}
+.plan .cta:hover {
+    background-color: #0056b3;
+}
