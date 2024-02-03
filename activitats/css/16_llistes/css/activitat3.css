@@ -1,0 +1,13 @@
+div {
+border: 1px solid #000000;
+padding: 20px ;
+width: 45%;
+list-style: none;
+align-items: center;
+background-color: cadetblue;
+justify-content: center;
+}
+
+div:hover {
+    background-color: chartreuse;
+}
