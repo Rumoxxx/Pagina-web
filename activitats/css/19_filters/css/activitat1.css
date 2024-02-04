@@ -1,0 +1,10 @@
+img {
+    width: 300px;
+    height: auto;
+    filter: grayscale(0%);
+    transition: all 200ms ease-in;
+  }
+
+  img:hover {
+    filter: grayscale(100%);
+  }

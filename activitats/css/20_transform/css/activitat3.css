@@ -1,0 +1,32 @@
+.circles-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: red;
+    left: 0;
+    transition: 1s ease-in;
+}
+
+.blue {
+    background-color: rgba(0, 0, 255, 0.5);
+    left: 100px;
+    transition: 0.3s ease-in;
+}
+
+.circles-container:hover .blue {
+    transform: translateX(+100px);
+}
+
+.circles-container:hover .red {
+    transform: translateX(+200px);
+}

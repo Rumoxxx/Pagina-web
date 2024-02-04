@@ -1,0 +1,14 @@
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition:0.3s ease-in;
+    border-radius: 15%;
+  }
+
+button:hover {
+    transform: rotate(15deg);
+  }
