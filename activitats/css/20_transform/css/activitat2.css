@@ -1,0 +1,21 @@
+.modal {
+    display: inline-block;
+    padding: 10px;
+    color: aliceblue;
+    background-color: #3b1c1c;
+    border: 1px solid rgb(255, 0, 149);
+    cursor: pointer;
+    transition:0.3s ease-in;
+    margin-left: 45rem;
+    margin-top: 20rem;
+  }
+
+  
+  .modal:hover {
+    transform: scale(2);
+  }
+
+  .modal-content {
+    max-width: 400px;
+    margin: 0 auto;
+  }
