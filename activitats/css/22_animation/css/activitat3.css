@@ -1,0 +1,32 @@
+.body {
+
+}
+
+.cookie-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    animation: fade-in 1.5s forwards;
+}
+
+.cookie-footer button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+@keyframes fade-in {
+    0% {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    100% {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+}

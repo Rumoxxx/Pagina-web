@@ -1,0 +1,57 @@
+.reloj {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.hora, .minuto, .segundo {
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+}
+
+.hora {
+    animation: rotate-hora 4320s linear infinite;
+    background-color: brown;
+}
+
+.minuto {
+    animation: rotate-minuto 360s linear infinite;
+    background-color: aqua;
+}
+
+.segundo {
+    animation: rotate-segundo 6s linear infinite;
+    background-color: green;
+}
+
+@keyframes rotate-hora {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-minuto {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-segundo {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
