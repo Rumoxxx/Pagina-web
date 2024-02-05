@@ -1,0 +1,58 @@
+.circles-container {
+    position: relative;
+    height: 100vh;
+	width: 100vw;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-left: 35rem;
+}
+
+.circle {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: rgb(227, 252, 0);
+    left: 0;
+    transition: 1ms ease-in;
+}
+
+.blue {
+    background-color: rgb(73, 73, 73);
+    left: 100px;
+    transition: 1ms;
+    animation: eclipse 5s infinite;
+}
+
+.circles-container:hover .blue {
+    transform: translateX(-100px);
+}
+
+.circles-container:hover .red {
+    transform: translateX(0px);
+}
+
+@keyframes eclipse {
+	0% {
+		transform: translateX(100%);
+	}
+	25% {
+		transform: translateX(75%);
+	}
+	50% {
+		transform: translateX(50%);
+	}
+	75% {
+		transform: translateX(25%);
+	}
+	90% {
+		transform: translateX(-33%);
+	}
+    100% {
+        transform: translateX(-50%);
+    }
+}
