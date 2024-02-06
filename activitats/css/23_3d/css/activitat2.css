@@ -1,0 +1,7 @@
+img {
+    display: block;
+    margin: 300px auto;
+    width: 250px;
+    filter: drop-shadow(-250px -100px 10px black);
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+.image-container {
+    width: 300px; /* adjust to your needs */
+    height: 200px; /* adjust to your needs */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-container:hover .image {
+    transform: translateZ(-5px) scale(1.5);
+  }
+  
+  .image-container:hover .hover-effect {
+    opacity: 1;
+  }
