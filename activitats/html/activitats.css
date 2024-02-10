@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: mintcream;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  img {
+    width: auto;
+    height: 150px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 19rem;
+  }
+  
+  .plan {
+    text-align: center;
+    padding: 20px;
+    width: 45%;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-size: x-large;
+  }
+  
+  ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    list-style: none;
+    margin-top: 2.5rem;
+  }
+  
+  div li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  div li:hover {
+    transform: translateZ(-5px) scale(1.3);
+  }
+  
+  a:hover {
+    color: #666;
+  }
+  
+  .netflix-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background-color: #141414;
+  }
+  
+  .logo {
+    h1 {
+      color: mintcream;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    color: mintcream;
+  }
+  
+  nav li {
+    color: mintcream;
+    background-color: mintcream;
+    margin: -0rem 0rem 2rem 13rem;
+    padding: 0.7rem;
+    border-radius: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .netflix-header {
+      padding: 1rem 1rem;
+    }
+}
