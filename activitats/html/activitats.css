@@ -9,6 +9,13 @@
     background-color: mintcream;
   }
   
+  .interactivo {
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  .interactivo:hover {
+    transform: translateZ(-5px) scale(1.3);
+  }
   h1 {
     text-align: center;
     margin-top: 50px;
