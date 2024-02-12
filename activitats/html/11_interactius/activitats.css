@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body {
+    font-family: Arial, sans-serif;
+    background-color: mintcream;
+    }
+
+    .netflix-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+        background-color: #141414;
+      }
+
+      .logo {
+        h1 {
+          color: mintcream;
+          font-size: 1.8rem;
+          font-weight: bold;
+        }
+      }
+      
+      nav ul {
+        display: flex;
+        list-style-type: none;
+        color: mintcream;
+      }
+      
+      nav li {
+        color: mintcream;
+        background-color: mintcream;
+        margin: -0rem 0rem 2rem 13rem;
+        padding: 0.7rem;
+        border-radius: 1rem;
+      }
+      
+      @media (max-width: 768px) {
+        .netflix-header {
+          padding: 1rem 1rem;
+        }
+    }
+
+    h1 {
+text-align: center;
+margin-top: 50px;
+
+    }
+
+    a {
+    text-decoration: none;
+    }
+    .container {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    }
+    .plan {
+    padding: 50px;
+    width: 45%;
+    }
+    .plan h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    }
+    .plan ul {
+    list-style-type: none;
+    padding: 0;
+    list-style: none;
+    margin-top: 2.5rem;
+    }
+    .plan li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+    }
+
+    .plan li:hover{
+    transform: translateZ(-5px) scale(1.3);
+    }
