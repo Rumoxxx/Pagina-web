@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: mintcream;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  img {
+    width: auto;
+    height: 150px;
+  }
+  
+  ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    list-style: none;
+    margin-top: 2.5rem;
+  }
+  
+  .netflix-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background-color: #141414;
+  }
+  
+  .logo {
+    h1 {
+      color: mintcream;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    color: mintcream;
+  }
+  
+  nav li {
+    color: mintcream;
+    background-color: mintcream;
+    margin: -0rem 0rem 2rem 13rem;
+    padding: 0.7rem;
+    border-radius: 1rem;
+  }
+  
+  p {
+    font-size: 25px;
+    font-style: Arial;
+}
+
+img {
+    width: 1000px;
+    height: auto;
+}
+
+.mi-elemento {
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  text-align: justify;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 2cap black;
+}
+
+.encabezado h1 {
+  margin: 0;
+}
+
+.encabezado img {
+  height: 300px; 
+}
+
+h2 {
+    font-size: 50px;
+    padding: 10px;
+    border: 2cap black;
+    margin-left: 100px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+}
+
+.qw {
+    margin-top: -70px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cv {
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 10px 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+  @media (max-width: 768px) {
+    .netflix-header {
+      padding: 1rem 1rem;
+    }
+}
