@@ -67,7 +67,9 @@ margin-top: -100px;
         font-weight: bold;
         }
     }
-    
+    nav a {
+        color: black;
+      }
     nav ul {
         display: flex;
         list-style-type: none;

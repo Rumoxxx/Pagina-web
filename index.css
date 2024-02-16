@@ -95,7 +95,7 @@ h2 {
     padding: 10px;
     border: 2cap black;
     margin-left: 100px;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 img{
@@ -121,7 +121,7 @@ img:hover {
   margin: 0 auto;
   background-color: #ffffff;
   padding: 20px;
-  box-shadow: 10px 20px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 20px 4px rgba(0, 0, 0, 0.856);
 }
 
 
